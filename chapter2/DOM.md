@@ -1,0 +1,6 @@
+本章介绍了一个简单的JavaScript应用案例，还介绍了DOM提供的几个新属性，他们分别是：
+childNodes
+nodeType
+nodeValue
+firstChild
+lastChild
