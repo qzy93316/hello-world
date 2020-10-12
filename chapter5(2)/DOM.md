@@ -1,3 +1,11 @@
-尽量让我的javascript代码不要依赖于那些没有保证的假设，为此我引入了许多项测试和检查。这些测试和检查使我的Javascript代码能够平稳退化。
-没有使用onkeypress事件处理函数，这使得我的Javascript代码的可访问性得到了保证。
-最重要的是把事件处理函数从标记文档分离到了一个外部的Javascript文件。这使我的Javascript代码不再依赖于HTML文档的内容和结构。
+	在本章里，我们介绍了几种不同的浏览器里的文档动态添加标记的办法。我们还简要的回顾了两种“传统的“技术：
+	document.write方法
+	innerHTML属性
+	之后你看到了一些有一定深度的利用DOM方法来动态创建标记的例子。
+	createElement方法
+	createTextNode方法
+	appendChild方法
+	insertBefore方法
+	使用这些方法的关键是将Web文档视为节点树。请记住，你用createElement或createTextNode方法刚刚创建出来的节点只是JavaScript世界里的孤儿。
+利用appendChild或insertBefore方法，可以将这些DocumentFragment对象插入某个文档的节点树，让它们呈现在浏览器窗口里。
+	
