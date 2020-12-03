@@ -1,0 +1,11 @@
+只需要少量DOM方法和属性，就可以创建这些有用的脚本，如果你想通过DOM脚本去充实网页的内容，制作一份结构良好的标记文档将是最重要的条件。
+在需要对文档里的现有信息进行检索时，以下DOM方法最有用:
+getElementById
+getElementsByTagName
+getAttribute
+在需要将信息添加到文档里去时，以下DOM方法最有用：
+createElement
+createTextNode
+appendChild
+insertBefore
+setAttribute

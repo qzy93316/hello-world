@@ -13,3 +13,4 @@ function countBodyChildren() {
 	// alert(body_element.nodeType);
 	alert(description.firstChild.nodeValue);
 }
+-

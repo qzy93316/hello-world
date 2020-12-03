@@ -1,0 +1,11 @@
+#slideshow {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+}
+/* 把positon设置为relative很重要,因为我们想让子图片使用绝对位置. */
+/* 通过使用值relative,子元素的(0,0)坐标将固定在sildeshow div的左上角 */
+#preview {
+	position: absolute;
+}

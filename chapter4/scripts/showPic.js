@@ -43,6 +43,8 @@ function addLoadEvent(func) {
 		window.onload = function() {
 			oldonload();
 			func();
-		}
+		}window.onlload != ''function' {
+			window.onload=func;
+		}'
 	}
 }
